@@ -11,11 +11,11 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.scss" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
-      <div class="container">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><img src="./image/flatter-logo.png" alt="flatter-logo"
         /></a>
@@ -85,26 +85,50 @@
               </ul>
             </ul>
           </ul>
-          <button class="btn btn-outline-light border-5">Get started</button>
+          <button class="btn btn-outline-light rounded-5">Get started</button>
         </div>
       </div>
     </nav>
-    <section class="container p-5 d-flex justify-content-center align-items-center justify-content-sm-between">
-     <div>
+
+    <!-- main section -->
+    <section
+      class="container p-5 d-flex justify-content-center align-items-center justify-content-sm-between"
+    >
+      <div>
         <h1>HELLO</h1>
-        <h1>FUTURE HOME</h1>
+        <div>
+          <h1>
+            FUTURE
+            <div class="form-check form-switch">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckChecked"
+                checked
+              />
+              <label
+                class="form-check-label"
+                for="flexSwitchCheckChecked"
+              ></label>
+            </div>
+            HOME
+          </h1>
+        </div>
         <h1>OWNERS</h1>
         <p>
-          searching for your new home? looking for mortgage? no <br> matter where
-          you're at in the home buying jorney, you've <br> come to the right place
+          searching for your new home? looking for mortgage? no <br />
+          matter where you're at in the home buying jorney, you've <br />
+          come to the right place
         </p>
-        <button class="btn btn-outline-dark border-5">Get started</button>
-
-     </div>
-      <div class="card bg-black" style="width:25rem;">
-        <img src="./image/head-image.png" class="card-img-top" alt="...">
+        <button class="btn btn-outline-dark rounded-5">Get started</button>
+      </div>
+      <div class="card bg-black rounded-5 p-3" style="width: 25rem">
+        <img src="./image/head-image.png" class="card-img-top" alt="..." />
         <div class="card-body">
-          <h2 class="card-text text-light">Every home buying journey is unique.</h2>
+          <h2 class="card-text text-light">
+            Every home buying journey is unique.
+          </h2>
         </div>
       </div>
     </section>
