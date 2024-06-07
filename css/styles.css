@@ -1,0 +1,26 @@
+body {
+  background-color: #fefdf5;
+}
+
+.arrow .arrow-icon {
+  position: absolute;
+  top: 85%;
+  left: 63%;
+  color: #ffe500;
+  z-index: 2px;
+  background-color: #fefdf5;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+/* .arrow {
+  .arrow-icon {
+    content: "";
+    position: absolute;
+   
+  }
+} */
